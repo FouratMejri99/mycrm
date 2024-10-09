@@ -5,7 +5,7 @@ import Breadcrumbs from "@mui/joy/Breadcrumbs";
 import Link from "@mui/joy/Link";
 import { useEffect, useState } from "react";
 
-import "./Orders.css"; // Import the CSS file
+import "./orders.css"; // Import the CSS file
 
 const Orders = () => {
   const [paidInvoices, setPaidInvoices] = useState([]);
